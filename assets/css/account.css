@@ -1,0 +1,242 @@
+
+.account-modal {
+    color: #fff;
+}
+
+.account-modal .modal-dialog {
+    max-width: 800px;
+    width: 90%;
+}
+
+.account-modal .modal-content {
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+.account-modal .modal-header {
+    border-bottom: 1px solid #4a6380;
+    padding: 1.5rem;
+}
+
+.account-modal .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.account-modal .modal-body {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.account-modal .close {
+    color: #fff;
+    text-shadow: none;
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+
+.account-modal .close:hover {
+    opacity: 1;
+}
+
+.account-modal .modal-footer {
+    border-top: 1px solid #4a6380;
+}
+
+
+.account-info-section {
+    flex: 1 1 45%;
+    min-width: 250px;
+    background-color: #34495e;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 5px;
+}
+
+.account-info-section h4 {
+    color: #3498db;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #4a6380;
+    padding-bottom: 8px;
+}
+
+.account-info-section p {
+    margin-bottom: 10px;
+}
+
+.account-info-section .info-label {
+    font-weight: bold;
+    color: #bdc3c7;
+}
+
+.account-info-section .info-value {
+    color: #fff;
+}
+
+.account-form-group {
+    margin-bottom: 15px;
+}
+
+.account-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #bdc3c7;
+}
+
+.account-form-group input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #4a6380;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.account-form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.3);
+}
+
+
+.account-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-right: 10px;
+}
+
+.account-button:hover {
+    background-color: #2980b9;
+}
+
+.account-button.secondary {
+    background-color: #7f8c8d;
+}
+
+.account-button.secondary:hover {
+    background-color: #95a5a6;
+}
+
+.account-button.danger {
+    background-color: #e74c3c;
+}
+
+.account-button.danger:hover {
+    background-color: #c0392b;
+}
+
+
+#alertContainer {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.dark-mode .account-modal .modal-content {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .account-modal .modal-header,
+.dark-mode .account-modal .modal-footer {
+    border-color: #333;
+}
+
+.dark-mode .account-info-section {
+    background-color: #222;
+}
+
+.dark-mode .account-info-section h4 {
+    color: #4ca6ff;
+    border-color: #333;
+}
+
+.dark-mode .account-form-group input {
+    background-color: #333;
+    border-color: #444;
+    color: #fff;
+}
+
+.dark-mode .account-form-group input:focus {
+    border-color: #4ca6ff;
+}
+
+body.light-theme .account-modal .modal-content {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+body.light-theme .account-modal .modal-header,
+body.light-theme .account-modal .modal-footer {
+    border-color: #ddd;
+}
+
+body.light-theme .account-modal .close {
+    color: #333;
+}
+
+body.light-theme .account-info-section {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+body.light-theme .account-info-section h4 {
+    color: #2980b9;
+    border-color: #eee;
+}
+
+body.light-theme .account-info-section .info-label {
+    color: #7f8c8d;
+}
+
+body.light-theme .account-info-section .info-value {
+    color: #333;
+}
+
+body.light-theme .account-form-group label {
+    color: #555;
+}
+
+body.light-theme .account-form-group input {
+    background-color: #fff;
+    border-color: #ddd;
+    color: #333;
+}
+
+.alert-container {
+    margin-bottom: 15px;
+}
+
+.alert {
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.alert-danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+body.light-theme .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+body.light-theme .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+} 
