@@ -188,8 +188,6 @@ $completion_percentage = ($total_pokemon > 0) ? round(($found_pokemon / $total_p
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/methods.js"></script>
     <script src="../assets/js/account.js"></script>
-    
-    <!-- Modal Account -->
     <div class="modal fade account-modal" id="accountModal" tabindex="-1" role="dialog" aria-labelledby="accountModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -200,16 +198,11 @@ $completion_percentage = ($total_pokemon > 0) ? round(($found_pokemon / $total_p
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!-- Alert Container -->
                     <div id="alertContainer"></div>
-                    
-                    <!-- Email Section -->
                     <div class="account-info-section">
                         <h4>Email</h4>
                         <p id="userEmail">Caricamento...</p>
                     </div>
-                    
-                    <!-- Nome Utente Section -->
                     <div class="account-info-section">
                         <h4>Nome Utente</h4>
                         <div id="currentNameDisplay">
@@ -227,8 +220,6 @@ $completion_percentage = ($total_pokemon > 0) ? round(($found_pokemon / $total_p
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Password Section -->
                     <div class="account-info-section">
                         <h4>Password</h4>
                         <div id="passwordSection">
@@ -254,8 +245,6 @@ $completion_percentage = ($total_pokemon > 0) ? round(($found_pokemon / $total_p
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Account Info Section -->
                     <div class="account-info-section">
                         <h4>Informazioni Account</h4>
                         <p>
@@ -267,8 +256,6 @@ $completion_percentage = ($total_pokemon > 0) ? round(($found_pokemon / $total_p
                             <span id="accountCreationDate" class="info-value">Caricamento...</span>
                         </p>
                     </div>
-                    
-                    <!-- Account Deactivation Section -->
                     <div class="account-info-section">
                         <h4>Disattivazione Account</h4>
                         <p>Attenzione: questa operazione non può essere annullata.</p>
@@ -278,8 +265,6 @@ $completion_percentage = ($total_pokemon > 0) ? round(($found_pokemon / $total_p
             </div>
         </div>
     </div>
-    
-    <!-- Confirm Deactivation Modal -->
     <div class="modal fade account-modal" id="confirmDeactivationModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">

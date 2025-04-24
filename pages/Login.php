@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - SiVACACCIA!</title>
+    <title>Login - SIVACACCIA!</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Font Awesome -->
@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="card-header bg-primary text-white text-center py-3">
                         <h4 class="mb-0 d-flex justify-content-center align-items-center">
                             <img src="../img/logo.svg" height="40" class="mr-2" alt="Logo" style="filter: brightness(0) invert(1);">
-                            <span>SiVACACCIA!</span>
+                            <span>SIVACACCIA!</span>
                         </h4>
                     </div>
                     <div class="card-body">

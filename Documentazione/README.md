@@ -191,7 +191,9 @@ Il database di SIVACACCIA è progettato con un modello relazionale che supporta 
 - Implementare la funzione trulimero trulicina
 - Supporto per più lingue
 - Esportazione della collezione
-- Aggiungere tutti gli odds per ogni per tutti i metodi
+- Aggiungere tutti gli odds per ogni per tutti i metodi (in questo momento appare Odds N/A per molti metodi)
+- Aggiungere il calcolo del B(n,p) per ogni incremento: Cosa significa B(n,p)?
+È la distribuzione binomiale. Fondamentalmente, significa che per ogni incontro che hai già completato, avrai avuto quella percentuale di possibilità di aver già trovato almeno uno shiny. Serve principalmente come motivazione. 
 
 ## Licenza
 
